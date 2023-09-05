@@ -1,3 +1,12 @@
+/**********************************************************************
+ECU1 nodo esclavo direccionales
+Por Daniel R.
+ITESM - EDAG intership
+Septiembre, 2023
+Simula la función de direccionales realizando un modo
+diferente dependiendo del mensaje que recibe del master.
+***********************************************************************/
+
 #include <SPI.h>
 #include <mcp2515.h>
 #define CS_PIN 10 // pin Chip Select
@@ -12,6 +21,7 @@ struct can_frame canMsg;
 MCP2515 mcp(CS_PIN);
 
 void setup() {
+  // Configuración de puerto serial, comunicación CAN y LEDs
   Serial.begin(9600);
   while (!Serial);
 

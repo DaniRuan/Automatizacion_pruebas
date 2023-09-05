@@ -1,3 +1,12 @@
+/**********************************************************************
+ECU2 nodo esclavo limpiaparabrisa
+Por Daniel R.
+ITESM - EDAG intership
+Septiembre, 2023
+Simula la función de un limpiaparabrisas realizando una velocidad 
+diferente dependiendo de la variable que recibe del master.
+***********************************************************************/
+
 #include <SPI.h>
 #include <mcp2515.h>
 #include <Servo.h>
@@ -15,7 +24,7 @@ MCP2515 mcp(CS_PIN);
 void setup() {
   Serial.begin(9600);
   while (!Serial);
-
+  // Configuración de comunicación CAN
   SPI.begin();
   mcp.reset();
   mcp.setBitrate(CAN_500KBPS, MCP_8MHZ);
@@ -34,7 +43,7 @@ void loop() {
         for (int angle = 0; angle <= 80; angle += 1){
           pos = map(angle, 0, 80, 0, 80); // mapeo
           myservo.write(pos);
-          delay(9); // retardo entre oscilaciónal que está conectado el servo
+          delay(9); // retardo entre oscilación
         }
 
         for (int angle = 80; angle >= 0; angle -= 1){
