@@ -1,3 +1,11 @@
+'''
+Save terminal output logs in a folder
+By Daniel Ruán
+Email: A01731921@tec.mx
+EDAG - ITESM Intership
+
+'''
+
 import subprocess
 import os
 from datetime import datetime
