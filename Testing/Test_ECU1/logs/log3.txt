@@ -1,0 +1,26 @@
+[2023-10-15 22:08:34] Collected 1 tests (*)
+[2023-10-15 22:08:34] 
+[2023-10-15 22:08:34] Processing * in nanoatmega328 environment
+[2023-10-15 22:08:34] --------------------------------------------------------------------------------
+[2023-10-15 22:08:34] 
+[2023-10-15 22:08:34] Building & Uploading...
+[2023-10-15 22:08:42] 
+[2023-10-15 22:08:42] Testing...
+[2023-10-15 22:08:42] If you don't see any output for the first 10 secs, please reset board (press reset button)
+[2023-10-15 22:08:42] 
+[2023-10-15 22:08:44] test\Run_tests_ECU1.cpp:10:test_ECU1_Is_On:PASS
+[2023-10-15 22:08:44] test\Run_tests_ECU1.cpp:11:test_MCP2515_Module_Connected:PASS
+[2023-10-15 22:08:49] test\Run_tests_ECU1.cpp:65:test_CAN_Message_Receive:FAIL: Messages could not be received.
+[2023-10-15 22:08:49] test\Run_tests_ECU1.cpp:13:test_LED_Operation_0:PASS
+[2023-10-15 22:08:50] test\Run_tests_ECU1.cpp:14:test_LED_Operation_1:PASS
+[2023-10-15 22:08:50] test\Run_tests_ECU1.cpp:15:test_LED_Operation_2:PASS
+[2023-10-15 22:08:51] test\Run_tests_ECU1.cpp:16:test_LED_Operation_3:PASS
+[2023-10-15 22:08:51] 
+[2023-10-15 22:08:51] -----------------------
+[2023-10-15 22:08:51] 7 Tests 1 Failures 0 Ignored 
+[2023-10-15 22:08:51] FAIL
+[2023-10-15 22:08:51] 
+[2023-10-15 22:08:51] 
+[2023-10-15 22:08:51] 
+[2023-10-15 22:08:51] test\Run_tests_ECU1.cpp:65:test_CAN_Message_Receive:FAIL: Messages could not be received.
+[2023-10-15 22:08:51] 

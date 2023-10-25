@@ -1,0 +1,28 @@
+[2023-10-24 19:27:57] Collected 1 tests (*)
+[2023-10-24 19:27:57] 
+[2023-10-24 19:27:57] Processing * in nanoatmega328 environment
+[2023-10-24 19:27:57] --------------------------------------------------------------------------------
+[2023-10-24 19:27:57] 
+[2023-10-24 19:27:57] Building & Uploading...
+[2023-10-24 19:28:07] 
+[2023-10-24 19:28:07] Testing...
+[2023-10-24 19:28:07] If you don't see any output for the first 10 secs, please reset board (press reset button)
+[2023-10-24 19:28:07] 
+[2023-10-24 19:28:10] test\Run_tests_ECU4.cpp:11:test_ECU4_Is_On:PASS
+[2023-10-24 19:28:11] test\Run_tests_ECU4.cpp:13:test_MCP2515_Module_Connected:PASS
+[2023-10-24 19:28:12] test\Run_tests_ECU4.cpp:15:test_CAN_Message_Receive:PASS
+[2023-10-24 19:28:13] DISTANCIA: 9
+[2023-10-24 19:28:13] test\Run_tests_ECU4.cpp:17:test_proximity_sensor_activates:PASS
+[2023-10-24 19:28:14] test\Run_tests_ECU4.cpp:19:test_proximity_sensor_deactivated:PASS
+[2023-10-24 19:28:15] 
+[2023-10-24 19:28:15] -----------------------
+[2023-10-24 19:28:15] 5 Tests 0 Failures 0 Ignored 
+[2023-10-24 19:28:15] OK
+[2023-10-24 19:28:15] 
+[2023-10-24 19:28:15] ----------------- nanoatmega328:* [PASSED] Took 18.62 seconds -----------------
+[2023-10-24 19:28:15] 
+[2023-10-24 19:28:15] =================================== SUMMARY ===================================
+[2023-10-24 19:28:15] Environment    Test    Status    Duration
+[2023-10-24 19:28:15] -------------  ------  --------  ------------
+[2023-10-24 19:28:15] nanoatmega328  *       PASSED    00:00:18.616
+[2023-10-24 19:28:15] ================== 5 test cases: 5 succeeded in 00:00:18.616 ==================

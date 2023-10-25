@@ -1,0 +1,24 @@
+[2023-10-17 15:35:13] Collected 1 tests (*)
+[2023-10-17 15:35:13] 
+[2023-10-17 15:35:13] Processing * in megaatmega2560 environment
+[2023-10-17 15:35:13] --------------------------------------------------------------------------------
+[2023-10-17 15:35:13] 
+[2023-10-17 15:35:13] Building & Uploading...
+[2023-10-17 15:35:20] 
+[2023-10-17 15:35:20] Testing...
+[2023-10-17 15:35:20] If you don't see any output for the first 10 secs, please reset board (press reset button)
+[2023-10-17 15:35:20] 
+[2023-10-17 15:35:22] test\Run_tests_gateway.cpp:10:test_Gateway_Is_On:PASS
+[2023-10-17 15:35:22] test\Run_tests_gateway.cpp:25:test_MCP2515_Module_Connected:FAIL: MCP2515 module not connected.
+[2023-10-17 15:35:22] test\Run_tests_gateway.cpp:35:test_CAN_Communication:FAIL: Failed to send CAN messages.
+[2023-10-17 15:35:22] 
+[2023-10-17 15:35:22] -----------------------
+[2023-10-17 15:35:22] 3 Tests 2 Failures 0 Ignored 
+[2023-10-17 15:35:22] FAIL
+[2023-10-17 15:35:22] 
+[2023-10-17 15:35:22] 
+[2023-10-17 15:35:22] 
+[2023-10-17 15:35:22] test\Run_tests_gateway.cpp:25:test_MCP2515_Module_Connected:FAIL: MCP2515 module not connected.
+[2023-10-17 15:35:22] 
+[2023-10-17 15:35:22] test\Run_tests_gateway.cpp:35:test_CAN_Communication:FAIL: Failed to send CAN messages.
+[2023-10-17 15:35:22] 

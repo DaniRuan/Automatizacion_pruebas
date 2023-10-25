@@ -1,0 +1,15 @@
+[2023-10-24 19:16:37] Collected 1 tests (*)
+[2023-10-24 19:16:37] 
+[2023-10-24 19:16:37] Processing * in nanoatmega328 environment
+[2023-10-24 19:16:37] --------------------------------------------------------------------------------
+[2023-10-24 19:16:37] 
+[2023-10-24 19:16:37] Building & Uploading...
+[2023-10-24 19:16:52] 
+[2023-10-24 19:16:52] Testing...
+[2023-10-24 19:16:52] If you don't see any output for the first 10 secs, please reset board (press reset button)
+[2023-10-24 19:16:52] 
+[2023-10-24 19:17:17] test\Run_volume_test.cpp:11:test_volume_variation:PASS
+[2023-10-24 19:17:17] 
+[2023-10-24 19:17:17] ----------------------
+[2023-10-24 19:17:17] 1 Tests 0 ailures 0 Ignore 
+[2023-10-24 19:17:17] OK

@@ -1,0 +1,29 @@
+[2023-10-24 18:51:39] Collected 1 tests (*)
+[2023-10-24 18:51:39] 
+[2023-10-24 18:51:39] Processing * in nanoatmega328 environment
+[2023-10-24 18:51:39] --------------------------------------------------------------------------------
+[2023-10-24 18:51:39] 
+[2023-10-24 18:51:39] Building & Uploading...
+[2023-10-24 18:51:48] 
+[2023-10-24 18:51:48] Testing...
+[2023-10-24 18:51:49] If you don't see any output for the first 10 secs, please reset board (press reset button)
+[2023-10-24 18:51:49] 
+[2023-10-24 18:51:51] test\Run_tests_ECU2.cpp:11:test_ECU2_Is_On:PASS
+[2023-10-24 18:51:52] test\Run_tests_ECU2.cpp:13:test_MCP2515_Module_Connected:PASS
+[2023-10-24 18:51:53] test\Run_tests_ECU2.cpp:15:test_CAN_Message_Receive:PASS
+[2023-10-24 18:51:56] test\Run_tests_ECU2.cpp:17:test_wipers_operation_0:PASS
+[2023-10-24 18:52:03] test\Run_tests_ECU2.cpp:19:test_wipers_operation_1:PASS
+[2023-10-24 18:52:07] test\Run_tests_ECU2.cpp:21:test_wipers_operation_2:PASS
+[2023-10-24 18:52:09] test\Run_tests_ECU2.cpp:23:test_wipers_operation_3:PASS
+[2023-10-24 18:52:10] 
+[2023-10-24 18:52:10] -----------------------
+[2023-10-24 18:52:10] 7 Tests 0 Failures 0 Ignored 
+[2023-10-24 18:52:10] OK
+[2023-10-24 18:52:10] 
+[2023-10-24 18:52:10] ----------------- nanoatmega328:* [PASSED] Took 31.18 seconds -----------------
+[2023-10-24 18:52:10] 
+[2023-10-24 18:52:10] =================================== SUMMARY ===================================
+[2023-10-24 18:52:10] Environment    Test    Status    Duration
+[2023-10-24 18:52:10] -------------  ------  --------  ------------
+[2023-10-24 18:52:10] nanoatmega328  *       PASSED    00:00:31.178
+[2023-10-24 18:52:10] ================== 7 test cases: 7 succeeded in 00:00:31.178 ==================
