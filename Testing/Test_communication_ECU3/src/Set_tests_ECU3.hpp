@@ -1,11 +1,10 @@
 /************************************************** *********************
-ECU 3 test cases (display)
+ECU 3 (display) testing communication and power
 By Daniel Ruán
 ITESM - EDAG intership
 Email: A01731921@tec.mx
 October, 2023
-Programming of test cases for ECU 3 stipulated in the
-documentation.
+Programming of test cases for the communication and power of the ECU 3.
 ************************************************** *********************/
 #pragma once
 #include <Arduino.h>

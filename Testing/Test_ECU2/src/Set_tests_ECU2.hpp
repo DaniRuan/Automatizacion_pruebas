@@ -84,14 +84,14 @@ void test_wipers_operation_0(void){
       pos = map(angle, 0, 80, 0, 80); 
       myservo.write(pos);
       delay(9);
-      //TEST_ASSERT_INT_WITHIN(2, pos, myservo.read()); // Check if the servo's position matches the expected angle
+      TEST_ASSERT_INT_WITHIN(2, pos, myservo.read()); // Check if the servo's position matches the expected angle
     }
 
     for (int angle = 80; angle >= 0; angle -= 1){
       pos = map(angle, 0, 80, 0, 80);
       myservo.write(pos);
       delay(9);
-      //TEST_ASSERT_INT_WITHIN(2, pos, myservo.read()); // Check if the servo's position matches the expected angle
+      TEST_ASSERT_INT_WITHIN(2, pos, myservo.read()); // Check if the servo's position matches the expected angle
     }
 
     oscilations++;
@@ -113,14 +113,14 @@ void test_wipers_operation_1(void){
     pos = map(angle, 0, 80, 0, 80);
     myservo.write(pos);
     delay(9);
-    //TEST_ASSERT_INT_WITHIN(2, pos, myservo.read()); // Check if the servo's position matches the expected angle
+    TEST_ASSERT_INT_WITHIN(2, pos, myservo.read()); // Check if the servo's position matches the expected angle
   }
 
   for (int angle = 80; angle >= 0; angle -= 1) {
     pos = map(angle, 0, 80, 0, 80);
     myservo.write(pos);
     delay(9);
-    //TEST_ASSERT_INT_WITHIN(2, pos, myservo.read()); // Check if the servo's position matches the expected angle
+    TEST_ASSERT_INT_WITHIN(2, pos, myservo.read()); // Check if the servo's position matches the expected angle
   }
   delay(5000);
 }
@@ -133,7 +133,7 @@ void test_wipers_operation_2(void){
     myservo.write(pos);
     delay(9);
     //check if the servo's position matches the expected angle within a tolerance
-    //TEST_ASSERT_INT_WITHIN(2, pos, myservo.read());
+    TEST_ASSERT_INT_WITHIN(2, pos, myservo.read());
   }
 
   for (int angle = 80; angle >= 0; angle -= 1) {
@@ -141,7 +141,7 @@ void test_wipers_operation_2(void){
     myservo.write(pos);
     delay(9);
     // check if the servo's position matches the expected angle within a tolerance
-    //TEST_ASSERT_INT_WITHIN(2, pos, myservo.read());
+    TEST_ASSERT_INT_WITHIN(2, pos, myservo.read());
   }
     delay(1000);
 }
@@ -155,7 +155,7 @@ void test_wipers_operation_3(void){
     myservo.write(pos);
     delay(9);
     //check if the servo's position matches the expected angle within a tolerance
-    //TEST_ASSERT_INT_WITHIN(2, pos, myservo.read());
+    TEST_ASSERT_INT_WITHIN(2, pos, myservo.read());
   }
 
   for (int angle = 80; angle >= 0; angle -= 1){
@@ -163,6 +163,6 @@ void test_wipers_operation_3(void){
     myservo.write(pos);
     delay(9);
     //check if the servo's position matches the expected angle within a tolerance
-    //TEST_ASSERT_INT_WITHIN(2, pos, myservo.read());
+    TEST_ASSERT_INT_WITHIN(2, pos, myservo.read());
   }
 }

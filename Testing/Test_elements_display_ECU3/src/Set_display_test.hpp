@@ -1,11 +1,10 @@
 /************************************************** *********************
-ECU 3 test cases (display)
+ECU 3 (display) testing elements display
 By Daniel Ruán
 ITESM - EDAG intership
 Email: A01731921@tec.mx
 October, 2023
-Programming of test cases for ECU 3 stipulated in the
-documentation.
+Programming of test cases for the display of all the elements in ECU 3.
 ************************************************** *********************/
 #pragma once
 #include <Arduino.h>
