@@ -1,9 +1,9 @@
-Esta capreta incluye los siguientes casos de prueba:
+Esta carpeta incluye los siguientes casos de prueba:
 
 - Pruebas en nodo gateway
 - Pruebas en ECU1
 - Pruebas en ECU2
-- Pruebas en ECU3 separado en tres carpetas:
+- Pruebas en ECU3 separadas en tres carpetas:
     - Prueba de comunicación para ECU3
     - Prueba de variación de volumen para ECU3
     - Prueba de despliegue de elementos en pantalla para ECU3
