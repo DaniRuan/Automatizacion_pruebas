@@ -3,18 +3,27 @@
 #include <unity.h>
 #include <Set_tests_Gateway.hpp>
 
-void setup(){
+
+void setup()
+{
     Serial.begin(9600);
     delay(1000);
 
-  UNITY_BEGIN();
+    UNITY_BEGIN();
     RUN_TEST(test_Gateway_Is_On);
     delay(1000);
     RUN_TEST(test_MCP2515_Module_Connected);
     delay(1000);
     RUN_TEST(test_CAN_Communication);
     delay(1000);
-  UNITY_END();
+    RUN_TEST(test_ECU1);
+    delay(1000);
+    RUN_TEST(test_ECU2);
+    delay(1000);
+    RUN_TEST(test_ECU3);
+    delay(1000);
+    RUN_TEST(test_ECU4);
+    UNITY_END();
 }
 
 void loop() {
