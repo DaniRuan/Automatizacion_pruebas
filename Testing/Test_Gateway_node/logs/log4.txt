@@ -1,0 +1,29 @@
+[2023-11-13 18:32:45] Collected 1 tests (*)
+[2023-11-13 18:32:46] 
+[2023-11-13 18:32:46] Processing * in megaatmega2560 environment
+[2023-11-13 18:32:46] --------------------------------------------------------------------------------
+[2023-11-13 18:32:46] 
+[2023-11-13 18:32:46] Building & Uploading...
+[2023-11-13 18:32:52] 
+[2023-11-13 18:32:52] Testing...
+[2023-11-13 18:32:52] If you don't see any output for the first 10 secs, please reset board (press reset button)
+[2023-11-13 18:32:52] 
+[2023-11-13 18:32:54] test\Run_tests_gateway.cpp:13:test_Gateway_Is_On:PASS
+[2023-11-13 18:32:55] test\Run_tests_gateway.cpp:15:test_MCP2515_Module_Connected:PASS
+[2023-11-13 18:32:56] test\Run_tests_gateway.cpp:17:test_CAN_Communication:PASS
+[2023-11-13 18:33:17] test\Run_tests_gateway.cpp:19:test_ECU1:PASS
+[2023-11-13 18:33:38] test\Run_tests_gateway.cpp:21:test_ECU2:PASS
+[2023-11-13 18:33:50] test\Run_tests_gateway.cpp:23:test_ECU3:PASS
+[2023-11-13 18:34:01] test\Run_tests_gateway.cpp:25:test_ECU4:PASS
+[2023-11-13 18:34:01] 
+[2023-11-13 18:34:01] -----------------------
+[2023-11-13 18:34:01] 7 Tests 0 Failures 0 Ignored 
+[2023-11-13 18:34:01] OK
+[2023-11-13 18:34:01] 
+[2023-11-13 18:34:01] ----------------- megaatmega2560:* [PASSED] Took 75.14 seconds -----------------
+[2023-11-13 18:34:01] 
+[2023-11-13 18:34:01] =================================== SUMMARY ===================================
+[2023-11-13 18:34:01] Environment     Test    Status    Duration
+[2023-11-13 18:34:01] --------------  ------  --------  ------------
+[2023-11-13 18:34:01] megaatmega2560  *       PASSED    00:01:15.140
+[2023-11-13 18:34:01] ================== 7 test cases: 7 succeeded in 00:01:15.140 ==================

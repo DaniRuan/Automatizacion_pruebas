@@ -1,12 +1,12 @@
 /************************************************** *********************
-Gateway test cases (master node)
+Gateway (master node)
 By:
- - Fausto Rodrigo Carrillo
  - Daniel Ruán
+ - Fausto Rodrigo Carrillo
 ITESM - EDAG intership
 Email: 
- - A01735674@tec.mx
  - A01731921@tec.mx
+ - A01735674@tec.mx
 October, 2023
 Programming of the test cases for Gateway node
 ************************************************** *********************/
@@ -152,3 +152,24 @@ void test_ECU4(){
 
  canMsg.data[0] = 0;
 }
+
+/*
+void test_ECU1(){
+  SPI.begin();
+  mcp.setBitrate(CAN_125KBPS);
+  mcp.setNormalMode();
+
+  struct can_frame canMsg;
+  canMsg.can_id = 0x0E1;    // ID
+  canMsg.can_dlc = 1;        //  1 byte
+  //canMsg.data[0] = 0;
+
+  for (int i = 0; i <=3; i++) {
+    canMsg.data[0] = i; // Value
+    unsigned long startTime = millis();
+    while (millis() - startTime < 4000) {
+      TEST_ASSERT_EQUAL_MESSAGE(MCP2515::ERROR_OK, mcp.sendMessage(&canMsg), "Messages not sent successfully");
+      delay(100);
+    }
+  }
+}*/

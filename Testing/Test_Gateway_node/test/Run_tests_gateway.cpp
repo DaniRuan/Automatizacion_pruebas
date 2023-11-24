@@ -26,5 +26,6 @@ void setup()
     UNITY_END();
 }
 
-void loop() {
+void loop()
+{
 }
