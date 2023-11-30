@@ -1,10 +1,10 @@
 /************************************************** *********************
-ECU 3 (display) testing volumen variation
+ECU 3 (display) testing values variation
 By Daniel Ruán
 ITESM - EDAG intership
 Email: A01731921@tec.mx
 October, 2023
-Programming of test cases for the volume variation in ECU 3.
+Programming of test cases for the value variation in ECU 3.
 ************************************************** *********************/
 #pragma once
 #include <Arduino.h>
@@ -35,28 +35,28 @@ void set_OLED(void){
   delay(1000);
 }
 
-// Function to test if the valume changes when receiving different values 0 - 100
-void test_volume_variation(void){
+// Function to test if the value changes when receiving different values 0 - 100
+void test_value_variation(void){
   set_OLED();
   delay(1000);
   display.clearDisplay();
-  for (int volume = 0; volume <= 100; volume++) {
+  for (int value = 0; value <= 100; value++) {
     
     display.clearDisplay();
 
-    // Volume bar
+    // Value bar
     int maxBarWidth = SCREEN_WIDTH - 2;
-    int barWidth = map(volume, 0, 100, 0, maxBarWidth);
+    int barWidth = map(value, 0, 100, 0, maxBarWidth);
     display.fillRect(1, 10, barWidth, SCREEN_HEIGHT / 4 - 2, SH110X_WHITE);
 
     display.setCursor(1, 1);
-    display.print("Volume: ");
-    display.print(volume);
+    display.print("Value: ");
+    display.print(value);
     display.print("%");
 
     display.display();
     
-    // Validate the volume bar and dimensions
+    // Validate the dimensions
     TEST_ASSERT(barWidth >= 0);
     TEST_ASSERT(barWidth <= maxBarWidth);
     TEST_ASSERT_EQUAL(SCREEN_WIDTH, display.width());
